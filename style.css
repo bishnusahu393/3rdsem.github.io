@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section.header{
+    height: 100vh;
+    width: 100%;
+    background-color: #f0f0f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+
+}
+.text{
+    padding-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:80px;
+    font-weight: 800;
+}
+.date{
+    background-color:#ff2020 ;
+    color: white;
+    padding: 10px 23px;
+    margin: 23px 23px;
+
+}
+.count{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 34px 34px;
+}
+label{
+    margin-left: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    padding: 11px 5px
+    
+}
+
+input {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 23px;
+   margin-left: 34px;
+}
+/* responsiveness? */
+@media(max-width:1118px){
+    .text{
+        padding-bottom: 30px;
+        font-size:70px;
+    }
+    label{
+        margin-left: 45px;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 40px;
+        padding: 11px 35px
+        
+    }
+    input {
+        width: 77%;
+        height: 67px;
+        margin: 24px 45px;
+    }
+}
+@media(max-width:800px){
+    section.header{
+        height: 100vh;
+        width: 100%;
+        background-color: #f0f0f2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+        justify-content: center;
+        padding-top: 10px;
+    
+    }
+    .text{
+        padding-bottom: 20px;
+        font-size:30px;
+    }
+    label{
+        margin-left: 22px;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 15px;
+        padding: 6px 0px;
+        
+    }
+    input {
+        width: 84px;
+        height: 67px;
+        margin: 10px 5px;
+    }
+    .count{
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 34px 4px;
+    }
+}
